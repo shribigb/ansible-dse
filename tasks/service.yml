@@ -2,7 +2,7 @@
 
 - name: Ensure service is started
   service:
-    name: cassandra
+    name: dse
     enabled: true
     state: started
   when: cassandra_manage_service

@@ -23,7 +23,7 @@ cassandra_apt_key: 'https://debian.datastax.com/debian/repo_key'
 cassandra_apt_pkg: 'dsc30'
 
 ## Install yum dse repos and version
-dse_yum_repo: 'http://rpm.datastax.com/enterprise'
+dse_yum_repo: 'rpm.datastax.com/enterprise'
 dse_yum_pkg: 'dse-full-5.0.1-1'
 dse_yum_username: ''
 dse_yum_password: ''
