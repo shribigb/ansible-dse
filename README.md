@@ -1,8 +1,6 @@
 Ansible Cassandra role
 =====
 
-[![Build Status](https://travis-ci.org/deimosfr/ansible-scylladb.svg?branch=master)](https://travis-ci.org/deimosfr/ansible-cassandra)
-
 This role installs and configures Cassandra on a server.
 
 Requirements
@@ -198,7 +196,7 @@ Examples
   hosts: cassandra
   user: root
   roles:
-    - deimosfr.cassandra
+    - cassandra
 ```
 
 Dependencies
@@ -215,3 +213,4 @@ Author Information
 ------------------
 
 Pierre Mavro / deimosfr
+Shri Bodas / shribigb
