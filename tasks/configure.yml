@@ -36,7 +36,7 @@
     backup: yes
   notify: restart cassandra
   with_items:
-    - { src: 'cassandra.yml.j2', dest: '/etc/dse/cassandra/cassandra.yml' }
+    - { src: 'cassandra.yml.j2', dest: '/etc/dse/cassandra/cassandra.yaml' }
     - { src: 'cassandra_shell.j2', dest: '/etc/default/cassandra', dict: '{{cassandra_server_defaults}}' }
     - { src: 'cassandra_shell.j2', dest: '/etc/dse/cassandra/cassandra-rackdc.properties', dict: '{{cassandra_rack_dc}}' }
     - { src: 'cassandra_shell.j2', dest: '/etc/dse/cassandra/cassandra-topology.properties', dict: '{{cassandra_topology_properties}}' }
